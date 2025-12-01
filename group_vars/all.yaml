@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb-dev.cloudops.store
-REDIS_HOST: redis-dev.cloudops.store
-CATALOGUE_HOST: catalogue.daws86s.fun
-CART_HOST: cart.daws86s.fun
-USER_HOST: user.daws86s.fun
-RABBITMQ_HOST: rabbitmq-dev.cloudops.store
-MYSQL_HOST: mysql-dev.cloudops.store
-SHIPPING_HOST: shipping.daws86s.fun
-PAYMENT_HOST: payment.daws86s.fun
+MONGODB_HOST: mongodb-{{ env }}.cloudops.store
+REDIS_HOST: redis-{{ env }}.cloudops.store
+CATALOGUE_HOST: catalogue-{{ env }}.cloudops.store
+CART_HOST: cart-{{ env }}.cloudops.store
+USER_HOST: user-{{ env }}.cloudops.store
+RABBITMQ_HOST: rabbitmq-{{ env }}.cloudops.store
+MYSQL_HOST: mysql-{{ env }}.cloudops.store
+SHIPPING_HOST: shipping-{{ env }}.cloudops.store
+PAYMENT_HOST: payment-{{ env }}.cloudops.store
